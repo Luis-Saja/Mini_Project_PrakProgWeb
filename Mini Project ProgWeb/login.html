@@ -1,18 +1,34 @@
-<main class="login-container">
-    <div class="login-card">
-        <h2>Login Aksi Nurani</h2>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Aksi Nurani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-area">
+            <img src="asset/JAksiNurani.png" class="logo">
+            <h1>Aksi Nurani</h1>
+        </div>
+        <nav><a href="index.html">Home</a></nav>
+    </header>
+
+    <main style="max-width: 400px; margin: 50px auto; padding: 30px; border: 1px solid #eee; border-radius:10px;">
+        <h2 style="text-align:center;">Login</h2>
         <form>
-            <label>Username/Email:</label>
-            <input type="text">
-
-            <label>Password:</label>
-            <input type="password"> <label>Masuk Sebagai:</label>
-            <div class="role-selection">
-                <input type="radio" name="role" value="donatur"> Donatur
-                <input type="radio" name="role" value="pengelola"> Pengelola [cite: 82]
-            </div>
-
-            <button type="submit">Masuk</button>
+            <label>Username/Email:</label><br>
+            <input type="text" style="width:100%; margin-bottom:15px;"><br>
+            
+            <label>Password:</label><br>
+            <input type="password" style="width:100%; margin-bottom:15px;"><br>
+            
+            <label>Masuk Sebagai:</label><br>
+            <input type="radio" name="role" value="donatur"> Donatur
+            <input type="radio" name="role" value="pengelola"> Pengelola [cite: 82]<br><br>
+            
+            <button type="submit" class="btn-donasi" style="width:100%; border:none;">Masuk</button>
         </form>
-    </div>
-</main>
+    </main>
+</body>
+</html>
