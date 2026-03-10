@@ -1,30 +1,36 @@
-<main>
-    <section class="summary">
-        <h3>Anda akan berdonasi untuk: Renovasi Sekolah Pelosok</h3>
-    </section>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Donasi - Aksi Nurani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-area">
+            <img src="asset/JAksiNurani.png" class="logo">
+            <h1>Aksi Nurani</h1>
+        </div>
+        <nav><a href="index.html">Home</a></nav>
+    </header>
 
-    <form action="#">
-        <label>Nama Lengkap:</label>
-        <input type="text" required>
-
-        <label>Email:</label>
-        <input type="email" required>
-
-        <label>Nominal Donasi:</label>
-        <input type="number" required>
-
-        <label>Metode Pembayaran:</label>
-        <select>
-            <option>Transfer Bank</option>
-            <option>E-Wallet</option>
-        </select>
-
-        <label>Pesan Dukungan (Opsional):</label>
-        <textarea></textarea>
-
-        <label>Upload Bukti Transfer (PDF/JPG/PNG):</label>
-        <input type="file" accept=".pdf,.jpg,.png" required> [cite: 79, 93]
-
-        <button type="submit" onclick="alert('Berhasil melakukan donasi!')">Kirim Donasi</button>
-    </form>
-</main>
+    <main style="max-width: 600px; margin: auto; padding: 20px;">
+        <h3>Formulir Donasi: Renovasi Sekolah Pelosok [cite: 68]</h3>
+        <form onsubmit="alert('Berhasil melakukan donasi! [cite: 93]'); return true;">
+            <label>Nama Lengkap:</label><br>
+            <input type="text" style="width:100%; margin-bottom:15px;" required><br>
+            
+            <label>Email:</label><br>
+            <input type="email" style="width:100%; margin-bottom:15px;" required><br>
+            
+            <label>Nominal Donasi:</label><br>
+            <input type="number" style="width:100%; margin-bottom:15px;" required><br>
+            
+            <label>Bukti Transfer (PDF/JPG/PNG):</label><br>
+            <input type="file" accept=".pdf,.jpg,.png" style="margin-bottom:20px;" required><br>
+            
+            <button type="submit" class="btn-donasi" style="width:100%; border:none; cursor:pointer;">Kirim Donasi</button>
+        </form>
+    </main>
+</body>
+</html>
