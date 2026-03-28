@@ -1,1 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px;
+}
+
+.nav-section a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+/* Search */
+.search-container {
+    padding: 15px;
+    background-color: #ecf0f1;
+}
+
+/* Donasi List */
+.donasi-list {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Card */
+.donasi-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 200px;
+}
