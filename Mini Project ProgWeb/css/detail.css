@@ -108,8 +108,7 @@
     line-height: 20px;
     font-weight: bold;
 }
-
-/* Lebar Progress Bar */
+    
 .w-45 { width: 45%; }
 
 .deadline {
@@ -170,3 +169,21 @@
 
 .btn-back:hover { background: #ddd; }
 .btn-donate:hover { background: #34495e; }
+
+.campaign-content {
+    display: none; 
+}
+
+.campaign-content:target {
+    display: block;
+    animation: fadeIn 0.5s ease;
+}
+
+main:not(:has(:target)) #cianjur {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
