@@ -46,3 +46,9 @@ Dalam perancangan *User Interface* (UI) website ini, telah diterapkan beberapa p
 3. **Visibility of System Status:**
    * Terdapat *hover effect* (perubahan warna) pada setiap tombol yang interaktif untuk memberikan *feedback* visual bahwa elemen tersebut dapat diklik.
 
+
+## penyusun
+
+* Philip Luis Nurcahyo | 71241095
+* Hendrikus Lanang Ona | 71231114
+* Putra Eka Setiawan   | 71241116
