@@ -34,17 +34,6 @@ Situs ini dibangun secara **murni menggunakan HTML5 dan CSS3** tanpa bantuan *fr
 * **Navigasi Sempurna:** Terdapat *Hyperlink* lengkap yang saling menghubungkan keempat halaman, termasuk tombol kembali ("Back") untuk navigasi pengguna.
 * **Layouting Modern:** Penggunaan `display: flex` untuk penataan letak yang responsif dan konsisten, serta efek visual interaktif (seperti *hover state* dan *box-shadow*).
 
-##  Penerapan Prinsip IMK (Bonus Poin)
-
-Dalam perancangan *User Interface* (UI) website ini, telah diterapkan beberapa prinsip Interaksi Manusia & Komputer (IMK), di antaranya:
-
-1. **Error Prevention (Pencegahan Kesalahan):** 
-   * Form menggunakan elemen *Dropdown* (`<select>`) untuk kategori dan metode pembayaran guna menghindari *typo* dari pengguna.
-   * Terdapat *Highlight* (perubahan warna bingkai) saat pengguna mengklik kolom input untuk memastikan fokus pengetikan yang tepat.
-2. **User Control and Freedom (Kendali Pengguna):** 
-   * Menyediakan tombol "Kembali" yang jelas di Halaman Donasi dan Detail agar pengguna tidak merasa terjebak jika ingin membatalkan aksinya.
-3. **Visibility of System Status:**
-   * Terdapat *hover effect* (perubahan warna) pada setiap tombol yang interaktif untuk memberikan *feedback* visual bahwa elemen tersebut dapat diklik.
 
 
 ## penyusun
